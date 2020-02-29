@@ -1,11 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
+import CakeContainer from "./components/cakeContainer";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <p>Hello World!</p>
+      <CakeContainer />
     </div>
   );
 }
